@@ -1,0 +1,8 @@
+name: LWCChestShop
+version: 0.01
+main: com.massivecraft.lwcchestshop.LWCChestShop
+authors: [yendor46]
+description: LWCChestShop denies creation of LWC Protections on a block protected by ChestShop if not the owner.  
+load: POSTWORLD
+depend: [ LWC, ChestShop ]
+class-loader-of: LWC
